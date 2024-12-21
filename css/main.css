@@ -1,5 +1,5 @@
 :root {
-  --body-bg-color: #eee;
+  --body-bg-color: transparent;
   --content-bg-color: #fff;
   --card-bg-color: #f5f5f5;
   --text-color: #555;
@@ -1004,6 +1004,7 @@ pre .javascript .function {
   display: flex;
   flex-shrink: 0;
   padding: 0 10px;
+  border-radius: 18.8px 18.8px 0 0;
 }
 .headband {
   background: #222;
@@ -1219,7 +1220,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #984fff;
+  background: #ff46ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1337,7 +1338,7 @@ pre .javascript .function {
 @media (max-width: 991px) {
   .sidebar-toggle {
     left: 20px;
-    opacity: 0.8;
+    opacity: 0.18;
     display: none;
   }
 }
@@ -1540,10 +1541,10 @@ pre .javascript .function {
 }
 .back-to-top.back-to-top-on {
   cursor: pointer;
-  opacity: 0.6;
+  opacity: 0.16;
 }
 .back-to-top.back-to-top-on:hover {
-  opacity: 0.8;
+  opacity: 0.18;
 }
 .post-body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -2297,7 +2298,7 @@ ul.breadcrumb li + li:last-child {
 }
 .header-inner {
   background: var(--content-bg-color);
-  border-radius: initial;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   overflow: hidden;
   padding: 0;
@@ -2330,7 +2331,7 @@ ul.breadcrumb li + li:last-child {
 }
 .content-wrap {
   background: var(--content-bg-color);
-  border-radius: initial;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   box-sizing: border-box;
   padding: 40px;
@@ -2477,7 +2478,7 @@ ul.breadcrumb li + li:last-child {
 }
 .sidebar-inner {
   background: var(--content-bg-color);
-  border-radius: initial;
+  border-radius: 20px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
   box-sizing: border-box;
   color: var(--text-color);
@@ -2575,18 +2576,18 @@ ul.breadcrumb li + li:last-child {
 }
 .post-block {
   background: var(--content-bg-color);
-  border-radius: initial;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   padding: 40px;
 }
 .post-block + .post-block {
-  border-radius: initial;
+  border-radius: 20px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
   margin-top: 12px;
 }
 .comments {
   background: var(--content-bg-color);
-  border-radius: initial;
+  border-radius: 20px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
   margin-top: 12px;
   padding: 40px;
@@ -2602,7 +2603,7 @@ ul.breadcrumb li + li:last-child {
 }
 .pagination {
   background: var(--content-bg-color);
-  border-radius: initial;
+  border-radius: 20px;
   border-top: initial;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
   margin: 12px 0 0;
@@ -2640,10 +2641,10 @@ ul.breadcrumb li + li:last-child {
 }
 .post-body h1,
 .post-body h2 {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid transparent;
 }
 .post-body h3 {
-  border-bottom: 1px dotted #eee;
+  border-bottom: 1px dotted transparent;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .content-wrap {
@@ -2653,7 +2654,7 @@ ul.breadcrumb li + li:last-child {
     margin-top: 20px;
   }
   .post-block {
-    border-radius: initial;
+    border-radius: 20px;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
     padding: 20px;
   }
@@ -2676,7 +2677,7 @@ ul.breadcrumb li + li:last-child {
     margin: 12px 0;
   }
   .post-block {
-    border-radius: initial;
+    border-radius: 20px;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
     min-height: auto;
     padding: 12px;
@@ -2691,4 +2692,11 @@ ul.breadcrumb li + li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
+}
+body {
+  background-image: url("http://i0.hdslb.com/bfs/new_dyn/04988b034f5872155215774da891e9be401742377.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  opacity: 0.85;
 }
