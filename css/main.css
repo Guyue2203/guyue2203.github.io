@@ -1220,7 +1220,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff46ff;
+  background: #d42163;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2694,7 +2694,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 body {
-  background-image: url("http://i0.hdslb.com/bfs/new_dyn/04988b034f5872155215774da891e9be401742377.jpg");
+  background-image: url("https://i-blog.csdnimg.cn/blog_migrate/3fee9fd34fc33004425fd81f049423ea.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
